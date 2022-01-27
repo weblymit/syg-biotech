@@ -10,14 +10,17 @@ export default function Home() {
       <div className="">
         <HomeAbout />
       </div>
-      <div className=" bg-[#e7e7e7] text-gray-100k">
+      <div className=" text-gray-100k bg-[#e7e7e7]">
         <HomeServices />
       </div>
       <div className="">
-        <img src="/bg4.jpeg" alt="syg-biotech" className='object-cover' />
+        <img src="/bg4.jpeg" alt="syg-biotech" className="object-cover" />
       </div>
       <div className="">
         <HomeWhyUs />
+      </div>
+      <div className="">
+        <img src="/yan.jpeg" alt="syg-biotech Yannick Gangwe" className="object-cover h-[24vh]" />
       </div>
       <div className="bg-secondary">
         <HomeProduct />
