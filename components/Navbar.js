@@ -19,11 +19,11 @@ export default function Navbar() {
     },
     {
       label: 'Qui sommes nous ?',
-      href: '/qui-sommes-nous',
+      href: '/',
     },
     {
       label: 'Contact',
-      href: '/contact',
+      href: '/',
     },
   ]
   return (
