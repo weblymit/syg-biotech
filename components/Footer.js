@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="relative mt-16 bg-secondary text-gray-100">
       <svg
-        className="sm:h-16s absolute top-0 -mt-5 h-6 w-full text-secondary sm:-mt-10"
+        className="sm:h-16s absolute top-0 -mt-5 h-6 w-full text-secondary sm:-mt-10 lg:-mt-5"
         preserveAspectRatio="none"
         viewBox="0 0 1440 54"
       >
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-deep-purple-accent-200 flex flex-col justify-between border-t pt-5 pb-10 sm:flex-row">
+        <div className="border-deep-purple-accent-200 flex flex-col justify-betweens text-yellow-100 items-center justify-center border-t pt-5 pb-10 sm:flex-row">
           <FooterSocialMediaIcon />
         </div>
       </div>

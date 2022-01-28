@@ -14,13 +14,21 @@ export default function Home() {
         <HomeServices />
       </div>
       <div className="">
-        <img src="/bg4.jpeg" alt="syg-biotech" className="object-cover" />
+        <img
+          src="/bg4.jpeg"
+          alt="syg-biotech"
+          className="object-cover lg:h-[80vh] lg:w-full"
+        />
       </div>
       <div className="">
         <HomeWhyUs />
       </div>
       <div className="">
-        <img src="/yan.jpeg" alt="syg-biotech Yannick Gangwe" className="object-cover h-[24vh]" />
+        <img
+          src="/yan.jpeg"
+          alt="syg-biotech Yannick Gangwe"
+          className="h-[24vh] object-cover lg:h-[60vh] lg:w-full"
+        />
       </div>
       <div className="bg-secondary">
         <HomeProduct />

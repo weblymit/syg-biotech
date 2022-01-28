@@ -27,14 +27,14 @@ export default function Navbar() {
     },
   ]
   return (
-    <nav className="container px-5 py-5 ">
+    <nav className="container px-5 py-3 lg:py-4 ">
       <ul className="flex justify-between items-center">
         <li>
           <Link href="/">
             <a className="pointer text-2xl font-black">Syg-Biotech</a>
           </Link>
         </li>
-        <div className="hidden items-center justify-between space-x-4 text-lg font-bold lg:flex">
+        <div className="hidden items-center justify-between space-x-4 text-lg font-semibold lg:flex">
           {menuLinks.map(({ href, label, style, category }) => (
             <li
               key={`${href}${label}`}

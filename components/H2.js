@@ -2,7 +2,7 @@ export function H2({ title, className }) {
   return (
     <>
       <h2
-        className={`pb-3 text-center text-4xl font-bold text-secondary ${className}`}
+        className={`pb-3 text-center text-4xl font-bold text-secondary lg:text-6xl ${className}`}
       >
         {title}
       </h2>
