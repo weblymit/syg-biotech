@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { IoMenuOutline } from 'react-icons/io5'
 import Hamburger from './Hamburger'
 
-export default function Navbar() {
+export default function NavbarTwo() {
   const router = useRouter()
   const routeSlug = router.route
   const [show, setShow] = useState(false)
@@ -19,15 +19,15 @@ export default function Navbar() {
     },
     {
       label: 'à propos de nous',
-      href: '#about',
+      href: '/',
     },
     {
       label: 'Notre Technologie',
-      href: '#technology',
+      href: '/notre-produit',
     },
     {
       label: 'Early Access',
-      href: '#early-access',
+      href: '/early-access',
     },
     {
       label: 'Contact',

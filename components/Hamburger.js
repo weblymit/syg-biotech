@@ -5,7 +5,7 @@ import { IoClose } from 'react-icons/io5'
 export default function Hamburger({ menuLinks, routeSlug, handleShow }) {
   return (
     <div className="relatived w-full">
-      <div className="absolute rounded-lg bg-gray-200 text-secondary top-6 left-5 right-5  pt-6 pb-12 font-bold text-gray-800">
+      <div className="absolute rounded-lg bg-gray-200 text-secondary top-6 left-5 right-5  pt-6 pb-12 font-bold text-gray-800s">
         <div className="flex justify-end px-8 pb-2">
           <IoClose className="text-4xl" onClick={handleShow} />
         </div>

@@ -1,19 +1,19 @@
 import Layout from '../components/Layout'
 import HomeAbout from '../components/HomeAbout'
-import HomeServices from '../components/HomeServices'
+import HomeTech from '../components/HomeTech'
 import HomeWhyUs from '../components/HomeWhyUs'
-import HomeProduct from '../components/HomeProduct'
+import EarlyAccess from '../components/HomeEarlyAccess'
 
 export default function Home() {
   return (
     <Layout title="Bienvenue">
-      <div className="">
+      <div className="" id="about">
         <HomeAbout />
       </div>
-      <div className=" text-gray-100k bg-[#e7e7e7]">
-        <HomeServices />
+      <div className=" text-gray-100k bg-gray-100" id="technology">
+        <HomeTech />
       </div>
-      <div className="">
+      <div className="bg-fixed">
         <img
           src="/bg4.jpeg"
           alt="syg-biotech"
@@ -30,8 +30,8 @@ export default function Home() {
           className="h-[24vh] object-cover lg:h-[60vh] lg:w-full"
         />
       </div>
-      <div className="bg-secondary">
-        <HomeProduct />
+      <div className="bg-secondary" id="early-access">
+        <EarlyAccess />
       </div>
     </Layout>
   )

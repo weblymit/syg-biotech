@@ -13,12 +13,10 @@ export function SubText({ title, className }) {
   return (
     <>
       <p
-        className={`pb-3 text-center text-lg "${className}`}
+        className={`pb-3 text-center text-lg "${className} font-light text-gray-600`}
       >
         {title}
       </p>
     </>
   )
 }
-
-

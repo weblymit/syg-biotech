@@ -9,9 +9,9 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
+      <Html className="scroll-smooth">
         <Head>
-          <title>Syg-Biotech</title>
+          {/* <title>Syg-Biotech</title> */}
           <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" href="/favicon.ico" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
