@@ -4,7 +4,7 @@ export default function HeaderTwo({ headerTitle }) {
   return (
     <div className="pt-16">
       <div
-        className="bg-scrolls flex h-[30vh] flex-col items-center justify-center bg-cover  bg-fixed bg-center py-32 text-center lg:h-[45vh]"
+        className="flex h-[30vh] flex-col items-center justify-center bg-cover bg-scroll  bg-center py-32 text-center lg:h-[45vh] lg:bg-fixed"
         style={{
           backgroundImage: `linear-gradient(
             to bottom,
