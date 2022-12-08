@@ -13,7 +13,7 @@ const CardSection = ({ description }) => {
 export default function HomeWhyUs() {
   return (
     <div
-      className="bg-cover  bg-center py-20 lg:py-44"
+      className="bg-cover  bg-center py-20 lg:py-28"
       style={{
         backgroundImage: `linear-gradient(
             to bottom,

@@ -4,7 +4,7 @@ import MoreAbout from './MoreAbout'
 
 export default function HomeTech() {
   return (
-    <div className="container py-16 lg:px-8 lg:py-44">
+    <div className="container py-16 lg:px-8 lg:py-28">
       <div className="lg:pb-16">
         <H2 title="SYG BIOTECH TECHNOLOGY" className="" />
         <SubText title="Méthode pour déterminer rapidement les interactions ligand-récepteur" />

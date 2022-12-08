@@ -6,7 +6,7 @@ export default function EarlyAccess() {
   return (
     <LayoutTwo headerTitle="Early Access">
       <div className="container mx-auto max-w-5xl py-10 lg:py-24">
-        <p className="text-centerj pt-4 text-2xl font-black leading-normal lg:px-2 lg:text-4xl lg:leading-snug">
+        <p className="text-centerj pt-4 text-2xl font-black leading-normal lg:text-4xl lg:leading-snug">
           Rejoignez notre équipe de partenaires et collaborateurs
         </p>
         <div className="mx-auto pt-8 text-lg">
