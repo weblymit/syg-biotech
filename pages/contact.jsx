@@ -15,16 +15,16 @@ export default function Contact() {
           <div className="space-y-4">
             <div className="flex items-center justify-center space-x-2">
               <IoPhonePortraitOutline className="text-2xl" />
-              <p>(+33) 2 76 27 11 11</p>
+              <p>(+33) 7 81 25 24 62</p>
             </div>
             <div className=" flex items-center justify-center space-x-2">
               <IoMailOpenOutline className="text-2xl" />
-              <p>info@sygbiotech.com</p>
+              <p>gpadja@sygbiotech.com</p>
             </div>
             <div className="text-center">
               <div className=" flex items-center justify-center space-x-2">
                 <IoLocationOutline className="text-2xl" />
-                <p>25 Passage de la Lucine</p>
+                <p>20 Passage de la Lucine</p>
               </div>
               <p>76007 Rouen (France)</p>
             </div>
