@@ -4,8 +4,8 @@ export default function ProductSectionTwo() {
   return (
     <div className="bg-gray-100">
       <div className="container py-14 lg:py-24">
-        <div className="mx-auto max-w-5xl text-center">
-          <p className="pb-6 text-2xl font-black lg:text-5xl">
+        <div className="mx-auto max-w-4xl text-center ">
+          <p className="pb-6 text-2xl font-black lg:text-4xl">
             Méthode pour déterminer rapidement les interactions ligand-récepteur
           </p>
           <p className="lg:text-xl">
@@ -16,7 +16,7 @@ export default function ProductSectionTwo() {
             inactivés par le biomarqueur cible.
           </p>
         </div>
-        <div className=" pt-10">
+        <div className=" pt-10 lg:pt-16">
           <img
             src="img-3.png"
             alt="syg biotech Yanick Gangwe"

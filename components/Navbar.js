@@ -14,16 +14,16 @@ export default function Navbar() {
 
   const menuLinks = [
     {
-      label: 'Accueil',
-      href: '/',
-    },
-    {
       label: 'à propos de nous',
       href: '#about',
     },
     {
       label: 'Notre Technologie',
       href: '#technology',
+    },
+    {
+      label: 'Avantages',
+      href: '#advantage',
     },
     {
       label: 'Early Access',

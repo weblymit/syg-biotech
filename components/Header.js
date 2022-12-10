@@ -16,9 +16,9 @@ export default function Header() {
         <p className="mx-7 mb-4 border px-6 text-5xl font-bold uppercase text-gray-100  shadow-lg shadow-cyan-500/30 lg:text-8xl ">
           Syg Biotech
         </p>
-        <p className="px-10 pt-3 text-xl font-light leading-snug text-gray-200 lg:max-w-4xl lg:pt-6 lg:text-4xl">
-          Détecter les composés qui ont le potentiel de cibler les points de
-          contrôle immunitaires n’ a jamais été aussi simple et rapide
+        <p className="font-s px-10 pt-3 text-xl leading-snug text-gray-200 lg:max-w-4xl lg:pt-6 lg:text-3xl">
+          Solution brevetée pour la quantification de biomarqueurs protéiques et
+          le criblage de candidat médicament
         </p>
       </div>
     </div>

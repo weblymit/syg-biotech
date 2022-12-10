@@ -17,10 +17,10 @@ export default function Home() {
         <img
           src="/bg4.jpeg"
           alt="syg-biotech"
-          className="object-cover lg:h-[80vh] lg:w-full"
+          className="object-cover lg:h-[60vh] lg:w-full"
         />
       </div>
-      <div className="">
+      <div className="" id="advantage">
         <HomeWhyUs />
       </div>
       <div className="">

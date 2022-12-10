@@ -1,6 +1,7 @@
 import React from 'react'
 import { H2, SubText } from './H2'
 import MoreAbout from './MoreAbout'
+import ProductHowItWork from './ProductHowItWork'
 
 export default function HomeTech() {
   return (
@@ -25,6 +26,9 @@ export default function HomeTech() {
           </p>
         </div>
         <img src="syg-tech.png" alt="" />
+      </div>
+      <div className="pt-24">
+        <ProductHowItWork />
       </div>
       <MoreAbout href="notre-produit" color="text-secondary" />
     </div>
